@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV - Jennifer Castillo</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<style>
+       body {
+           background: #f7f9fc;
+           font-family: "Inter", sans-serif;
+       }
+       /* CONTENEDOR PRINCIPAL */
+       .cv-container {
+           max-width: 1050px;
+           margin: 40px auto;
+           background: #ffffff;
+           border-radius: 14px;
+           box-shadow: 0 4px 22px rgba(0,0,0,0.08);
+           overflow: hidden;
+       }
+       /* COLUMNA IZQUIERDA */
+       .left-col {
+           background: #eef2f7;
+           padding: 35px 28px;
+           min-height: 100%;
+       }
+       .profile-img {
+           width: 150px;
+           height: 150px;
+           border-radius: 50%;
+           object-fit: cover;
+           box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+       }
+       .name {
+           font-size: 28px;
+           font-weight: 700;
+           margin-top: 15px;
+       }
+       .lastname {
+           font-family: "Sacramento", cursive;
+           font-size: 40px;
+           line-height: 1;
+           margin-top: -5px;
+       }
+       .section-title {
+           background: #b9ecf2;
+           padding: 6px 14px;
+           border-radius: 20px;
+           font-size: 14px;
+           font-weight: 700;
+           margin-top: 25px;
+           display: inline-block;
+       }
+       .languages .progress {
+           height: 8px;
+           border-radius: 20px;
+       }
+       /* COLUMNA DERECHA */
+       .right-col {
+           padding: 40px 35px;
+       }
+       .title-block {
+           background: #b9ecf2;
+           padding: 8px 16px;
+           border-radius: 25px;
+           font-weight: 700;
+           display: inline-block;
+           margin-bottom: 10px;
+       }
+       .project-card {
+           padding: 18px;
+           background: #f1fbfd;
+           border-radius: 12px;
+           margin-bottom: 15px;
+           border-left: 6px solid #64c5ce;
+       }
+</style>
+<!-- Google Font para la firma elegante -->
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="cv-container row g-0">
+<!-- COLUMNA IZQUIERDA -->
+<aside class="col-md-4 left-col text-center">
+<img src="./img/Image.jfif" class="profile-img" alt="Foto de perfil">
+<h2 class="name">Jennifer</h2>
+<h2 class="lastname">Castillo</h2>
+<p class="fw-bold mt-2">ESTUDIANTE</p>
+<!-- CONTACTO -->
+<div class="section-title">CONTACTO</div>
+<div class="text-start mt-3">
+<p> +52 636-111-42-76</p>
+<p>📧 jennycasti.mens07@gmail.com</p>
+<p>🌐 https://github.com/jennysitap</p>
+</div>
+<!-- HABILIDADES BLANDAS -->
+<div class="section-title">HABILIDADES BLANDAS</div>
+<ul class="text-start mt-2">
+<li>Liderazgo</li>
+<li>Adaptabilidad</li>
+<li>Creatividad</li>
+<li>Comunicación efectiva</li>
+<li>Trabajo en equipo</li>
+</ul>
+<!-- IDIOMAS -->
+<div class="section-title">IDIOMAS</div>
+<div class="languages text-start mt-3">
+<p class="mb-1">Español — 100%</p>
+<div class="progress mb-3">
+<div class="progress-bar bg-success" style="width: 100%"></div>
+</div>
+<p class="mb-1">Inglés — C1</p>
+<div class="progress">
+<div class="progress-bar bg-info" style="width: 65%"></div>
+</div>
+</div>
+</aside>
+<!-- COLUMNA DERECHA -->
+<main class="col-md-8 right-col">
+<!-- ACERCA DE MÍ -->
+<div class="title-block">ACERCA DE MÍ</div>
+<p>
+           Soy estudiante de Ingeniería en Sistemas, con una mente creativa y estratégica.
+           Cuento con experiencia desde programación básica hasta desarrollo web.
+           Amante del diseño, la cocina y los videojuegos.
+           Siempre busco innovar para lograr mis objetivos personales y profesionales.
+</p>
+<!-- FORMACIÓN ACADÉMICA -->
+<div class="title-block mt-4">FORMACIÓN ACADÉMICA</div>
+<h6 class="fw-bold mt-2">2022 – 2026</h6>
+<p>Instituto Tecnológico Superior de Nuevo Casas Grandes  
+       Ingeniería en Sistemas Computacionales.</p>
+
+<!-- EXPERIENCIA LABORAL -->
+<div class="title-block mt-4">EXPERIENCIA LABORAL</div>
+<ul>
+<li>Realización de masajes terapéuticos (2019 – Actualidad).</li>
+<li>Integrante del club de videojuegos (desde 2024).</li>
+</ul>
+<!-- HABILIDADES TÉCNICAS -->
+<div class="title-block mt-4">HABILIDADES TÉCNICAS</div>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>SQL</li>
+</ul>
+<!-- PROYECTOS -->
+<div class="title-block mt-4">PROYECTOS</div>
+<div class="project-card">
+<h6 class="fw-bold">📌 Página Web Personal</h6>
+<p>Desarrollada con HTML, CSS y Bootstrap. Presentación profesional y portafolio.</p>
+</div>
+<div class="project-card">
+<h6 class="fw-bold">📌 Sistema de Gestión Básico</h6>
+<p>Mini CRUD en JavaScript para tareas escolares.</p>
+</div>
+<div class="project-card">
+<h6 class="fw-bold">📌 Página de Recetas</h6>
+<p>Sitio web interactivo con recetas dinámicas y diseño responsivo.</p>
+</div>
+</main>
+</div>
+</body>
+</html>
