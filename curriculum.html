@@ -14,7 +14,7 @@
 
     <style>
         /* -----------------------------------
-           PALETA SUAVE
+           PALETA 
         ----------------------------------- */
         :root {
             --pink-soft: #fae6ef;
@@ -84,7 +84,7 @@
             border-left: 4px solid var(--pink-strong);
         }
 
-        /* FOTO ABOUT */
+        /* FOTO */
         .about-photo {
             width: 180px;
             height: 180px;
@@ -96,7 +96,7 @@
         }
 
         /* -----------------------------------
-           TARJETAS ESTÉTICAS
+           TARJETAS 
         ----------------------------------- */
         .card-pretty {
             background: linear-gradient(150deg, #fff, var(--pink-soft));
@@ -125,7 +125,7 @@
         }
 
         /* -----------------------------------
-           MODO OSCURO MEJORADO
+           MODO OSCURO 
         ----------------------------------- */
         .dark-mode {
             background: var(--dark-bg);
@@ -205,7 +205,7 @@
 <section class="section container" id="about">
     <h2 class="section-title">Sobre mí</h2>
 
-    <!-- FOTO -->
+    
     <img src="./img/Image.jfif" alt="Foto de Jennifer" class="about-photo">
 
     <p class="text-justify px-3">
@@ -279,38 +279,38 @@
             <div class="card-pretty">
                 <h4><i class="bi bi-image"></i> Comedero para Mascota</h4>
         
-                <!-- CARRUSEL -->
+                
                 <style>
                     .carousel-img-fixed {
-                    height: 260px;          /* Ajusta el alto si quieres */
+                    height: 260px;          
                     width: 100%;
-                    object-fit: cover;      /* Recorta sin deformar */
-                    border-radius: 15px;    /* Hace el borde bonito */
+                    object-fit: cover;      
+                    border-radius: 15px;    
                     }
                 </style>
                 <div id="carouselComedero" class="carousel slide mt-3" data-bs-ride="carousel">
         
-                    <!-- Contenedor de imágenes -->
+                    
                     <div class="carousel-inner rounded">
         
-                        <!-- Imagen 1 -->
+                        
                         <div class="carousel-item active">
                             <img src="./img/comida.jpeg" class="carousel-img-fixed" alt="Foto 1">
                         </div>
         
-                        <!-- Imagen 2 -->
+                        
                         <div class="carousel-item">
                             <img src="./img/miris.jpeg" class="carousel-img-fixed" alt="Foto 2">
                         </div>
         
                     </div>
         
-                    <!-- Botón previo -->
+                    
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselComedero" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </button>
         
-                    <!-- Botón siguiente -->
+                    
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselComedero" data-bs-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </button>
@@ -322,7 +322,6 @@
     </div>
 </section>
 
-<!-- CONTACTO -->
 <section class="section container" id="contact">
     <h2 class="section-title">Contacto</h2>
 
@@ -333,7 +332,6 @@
     </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
     © 2025 Jennifer Castillo
 </footer>
@@ -341,7 +339,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <script>
-    // --- MODO OSCURO ELEGANTE ---
     const toggle = document.getElementById("darkToggle");
 
     toggle.addEventListener("click", () => {
